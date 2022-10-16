@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap');
+
+#root {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.signUp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 480px;
+    width: 400px;
+    background-color: #FFFFFF;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+
+
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.25px;
+    color: #4C57B6;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+button {
+    background: #4C57B6;
+    border-radius: 5px;
+    width: 320px;
+    height: 40px;
+    color: white;
+    border: #4C57B6;
+}
+
+.signUpBtn:hover {
+    background-color: #0b114a;
+}
+
+body {
+    background-color: #E1F9F4;
+}
+
+.pg1 {
+    text-align: center;
+    margin-right: 0.5%;
+    margin-top: 30px;
+    color: #352D66;
+    font-size: 20px;
+}
+
+.pg1:hover {
+    color: rgb(231, 115, 115);
+}
+
+.name {
+    color: #352D66;
+}
+
+.para {
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
